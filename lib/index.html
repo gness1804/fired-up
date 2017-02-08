@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/16f157b3ae.js"></script>
     <link rel="stylesheet" style="text/css" href="./styles/reset.css"/>
     <link rel="stylesheet" style="text/css" href="./styles/styles.css"/>
     <link rel="stylesheet" style="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css"/>
@@ -11,11 +12,18 @@
   </head>
   <body>
     <h1 id='title'>FIRED UP</h1>
-    <button id='play-button'>▶️</button>
-    <button id='pause-button'>⏸</button>
-    <button id='stop-button'>⏹</button>
+    <button id='play-button'>
+      <i class="fa fa-play"></i>
+    </button>
+    <button id='pause-button'>
+      <i class="fa fa-pause"></i>
+    </button>
+    <button id='stop-button'>
+      <i class="fa fa-stop"></i>
+    </button>
 
-    <section id='hero'></section>
+    <section id='hero'>
+    </section>
 
     <script src="./render.js"></script>
   </body>
