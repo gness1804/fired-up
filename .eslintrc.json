@@ -1,4 +1,8 @@
 {
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
   "ecmafeatures":{
     "arrowFunctions": true
   },
@@ -15,5 +19,6 @@
     "no-alert": "off",
     "jsx-a11y/no-static-element-interactions": "off",
 		"react/jsx-no-bind": "off"
-  }
+  },
+  "parser": "babel-eslint"
 }
