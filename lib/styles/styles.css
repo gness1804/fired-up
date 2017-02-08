@@ -1,0 +1,58 @@
+body {
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+}
+
+#title {
+  font-family: 'Abril Fatface', cursive;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 135px;
+  border-bottom: 3px solid black;
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  margin: auto;
+  border-bottom: 2px solid black;
+}
+#button-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+#toggle-wrap {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  bottom:
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+}
+#hero {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background-color: #696969;
+  height: 400px;
+  width: 400px;
+}
+#session-list {
+  position: relative;
+  bottom: 455px;
+  left: 405px;
+  height: 460px;
+  width: 90px;
+  border-left: 2px solid black;
+  box-sizing: border-box;
+  background-color: #BBBBBB;
+}
+#graph-button, #table-button {
+  position: fixed;
+  bottom: 3px;
+  left: 3px;
+}
+#table-button {
+  left: 120px;
+}
