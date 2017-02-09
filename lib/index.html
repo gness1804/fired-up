@@ -4,19 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" style="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
+    <link rel="stylesheet" style="text/css" href="./styles/reset.css"/>
+    <link rel="stylesheet" style="text/css" href="./styles/styles.css"/>
     <link rel="stylesheet" style="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css"/>
     <title>Fired Up</title>
   </head>
   <body>
-    <div>
-      <h1>FIRED UP</h1>
-      <button id="play-button">▶️</button>
-      <button id="pause-button">⏸</button>
-      <button id="stop-button">⏹</button>
+    <h1 id="title">FIRED UP</h1>
+    <div id="button-wrap">
+      <button id="play-button">
+        <i class="fa fa-play"></i>
+        Start Session
+      </button>
+      <button id="pause-button">
+        <i class="fa fa-pause"></i>
+        Pause Session
+      </button>
+      <button id="stop-button">
+        <i class="fa fa-stop"></i>
+        Stop Session
+      </button>
     </div>
-    <section class="productivity-chart"></section>
 
-  <script src="./render.js"></script>
+    <section id="productivity-chart">
+    </section>
+
+    <section id="session-list">
+      <h2>Sessions</h2>
+    </section>
+
+    <button id="graph-button">
+      Display Graph
+    </button>
+    <button id="table-button">
+      Display Table
+    </button>
+
+    <script src="./render.js"></script>
   </body>
 </html>
