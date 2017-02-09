@@ -11,6 +11,10 @@ body {
   padding-left: 135px;
   border-bottom: 3px solid black;
 }
+#session-name-input {
+  display: block;
+  height: 20px;
+}
 h2 {
   font-family: 'Abril Fatface', cursive;
   margin: auto;
@@ -86,17 +90,7 @@ button:active {
   position: fixed;
   margin: auto;
   top: 20px;
-  padding: 2px 13px;
-}
-#graph-button, #table-button {
-  position: fixed;
-  bottom: 5px;
-}
-#graph-button {
-  left: 8px;
-}
-#table-button {
-  right: 95px;
+  padding: 2px 10px;
 }
 #table-title {
   text-align: center;
@@ -104,13 +98,13 @@ button:active {
 .table-key, .key-header {
   border: 2px solid black;
   border-left: 0px;
-  width: 150px;
+  width: 200px;
   padding: 2px 4px;
 }
 .table-time, .time-header {
   border: 2px solid black;
   border-right: 0px;
-  width: 250px;
+  width: 200px;
   padding: 2px 4px;
 }
 .key-header, .time-header {
@@ -122,18 +116,16 @@ button:active {
   text-align: left;
 }
 
-/*these need to be changed; this is just to get the stuff on the page*/
-#submit-session-data, #session-interval-input {
-  position: absolute;
-  bottom: 401px;
+#button-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
 }
+#graph-button, #table-button {
 
-#session-name-input {
-  position: absolute;
-  bottom: 430px;
 }
-
-#session-interval-input {
-  position: absolute;
-  bottom: 450px;
+#graph-button {
+}
+#table-button {
 }
