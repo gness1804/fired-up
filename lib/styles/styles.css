@@ -1,8 +1,8 @@
 body {
   font-family: 'Lato', sans-serif;
   position: fixed;
+  resize: none;
 }
-
 #title {
   font-family: 'Abril Fatface', cursive;
   margin: auto;
@@ -14,6 +14,7 @@ body {
 h2 {
   font-family: 'Abril Fatface', cursive;
   margin: auto;
+  padding-left: 3px;
   border-bottom: 2px solid black;
 }
 #button-wrap {
@@ -49,6 +50,7 @@ button {
   font-size: 14px;
   text-decoration: none;
   vertical-align: middle;
+  outline: #d66565;
 }
 button:hover {
   border-top-color: #782828;
@@ -58,6 +60,7 @@ button:hover {
 button:active {
   border-top-color: #5c1b1b;
   background: #5c1b1b;
+  outline: #d66565;
 }
 #productivity-chart {
   position: relative;
@@ -67,6 +70,7 @@ button:active {
   width: 400px;
   border: 2px solid black;
   border-right: 0;
+  overflow: auto;
 }
 #session-list {
   position: relative;
@@ -76,6 +80,7 @@ button:active {
   width: 90px;
   border: 2px solid black;
   box-sizing: border-box;
+  overflow: auto;
 }
 #storage-button {
   position: fixed;
@@ -92,4 +97,27 @@ button:active {
 }
 #table-button {
   right: 95px;
+}
+#table-title {
+  text-align: center;
+}
+.table-key, .key-header {
+  border: 2px solid black;
+  border-left: 0px;
+  width: 150px;
+  padding: 2px 4px;
+}
+.table-time, .time-header {
+  border: 2px solid black;
+  border-right: 0px;
+  width: 250px;
+  padding: 2px 4px;
+}
+.key-header, .time-header {
+  font-family: 'Abril Fatface', cursive;
+  border-top: 0px;
+  padding: 2px 6px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
 }
