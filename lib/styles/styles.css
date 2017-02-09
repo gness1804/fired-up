@@ -30,7 +30,8 @@ h2 {
 button {
   font-family: 'Lato', sans-serif;
 }
-#hero {
+
+#productivity-chart {
   position: relative;
   top: 5px;
   left: 5px;
