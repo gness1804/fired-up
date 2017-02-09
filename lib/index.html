@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/16f157b3ae.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
     <link rel="stylesheet" style="text/css" href="./styles/reset.css"/>
     <link rel="stylesheet" style="text/css" href="./styles/styles.css"/>
@@ -11,7 +12,14 @@
     <title>Fired Up</title>
   </head>
   <body>
-    <h1 id="title">FIRED UP</h1>
+    <h1 id="title">
+      <!-- <input
+        id="session-name-input"
+        placeholder="Add Session Name"
+        hidden="true"
+      /> -->
+      FIRED UP
+    </h1>
     <div id="button-wrap">
       <button id="play-button">
         <i class="fa fa-play"></i>
@@ -25,38 +33,33 @@
         <i class="fa fa-stop"></i>
         Stop Session
       </button>
-      <button id="load-storage-button">
-        Load from Storage
-      </button>
-      <button id="clear-storage-button">
-        Clear Storage
-      </button>
     </div>
+    
     <section id="productivity-chart">
     </section>
 
     <section id="session-list">
       <h2>Sessions</h2>
+      <button id="load-storage-button">
+        LOAD
+        <i class="fa fa-download"></i>
+      </button>
+      <button id="clear-storage-button">
+        Clear Storage
+      </button>
       <section id="session-list-display">
 
       </section>
     </section>
 
-    <input
-      id="session-name-input"
-      placeholder="Add Session Name"
-    />
-
-    <button id="submit-session-data">
-      Submit Data
-    </button>
-
-    <button id="graph-button">
-      Display Graph
-    </button>
-    <button id="table-button">
-      Display Table
-    </button>
+    <div id='button-container'>
+      <button id="graph-button">
+        Display Graph
+      </button>
+      <button id="table-button">
+        Display Table
+      </button>
+    </div>
 
     <script src="./render.js"></script>
   </body>
