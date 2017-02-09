@@ -57,3 +57,19 @@ button {
 #table-button {
   left: 120px;
 }
+
+/*these need to be changed; this is just to get the stuff on the page*/
+#submit-session-data, #session-interval-input {
+  position: absolute;
+  bottom: 401px;
+}
+
+#session-name-input {
+  position: absolute;
+  bottom: 430px;
+}
+
+#session-interval-input {
+  position: absolute;
+  bottom: 450px;
+}
