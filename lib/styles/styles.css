@@ -122,3 +122,7 @@ button:active {
   left: 3px;
   display: flex;
 }
+
+#session-name {
+  margin: 20px auto;
+}
