@@ -23,7 +23,7 @@
       </button>
       <button id="pause-button">
         <i class="fa fa-pause"></i>
-        Pause Session
+        Pause / Resume
       </button>
       <button id="stop-button">
         <i class="fa fa-stop"></i>
@@ -32,20 +32,28 @@
     </div>
 
     <section id="productivity-chart">
-      <input
-        id="session-name-input"
-        placeholder="Add Session Name"
-        hidden="false"
-      />
-      <div id='button-container'>
-        <button id="graph-button">
-          Display Graph
-        </button>
-        <button id="table-button">
-          Display Table
-        </button>
+      <div id='instructions'>
+        Enter your session name below <br>
+        Press 'Start Session' to begin <br>
+        Your Active Window will be recorded <br>
+        Pressing 'Stop Session' will save your session <br>
+        Witness how productive you are and get Fired Up!
+        <input
+          id="session-name-input"
+          placeholder="Add Session Name"
+          hidden="false"
+        />
       </div>
     </section>
+
+    <div id='button-container'>
+      <button id="graph-button">
+        Display Graph
+      </button>
+      <button id="table-button">
+        Display Table
+      </button>
+    </div>
 
     <section id="session-list">
       <h2>Sessions</h2>
