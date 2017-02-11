@@ -7,17 +7,13 @@
     <script src="https://use.fontawesome.com/16f157b3ae.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
     <link rel="stylesheet" style="text/css" href="./styles/reset.css"/>
-    <link rel="stylesheet" style="text/css" href="./styles/styles.css"/>
     <link rel="stylesheet" style="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css"/>
+    <link rel="stylesheet" style="text/css" href="./styles/styles.css"/>
     <title>Fired Up</title>
   </head>
+
   <body>
-    <h1 id="title">
-      <input
-        id="session-name-input"
-        placeholder="Add Session Name"
-        hidden="false"
-      />
+    <h1 id='title'>
       FIRED UP
     </h1>
     <div id="button-wrap">
@@ -36,30 +32,35 @@
     </div>
 
     <section id="productivity-chart">
+      <input
+        id="session-name-input"
+        placeholder="Add Session Name"
+        hidden="false"
+      />
+      <div id='button-container'>
+        <button id="graph-button">
+          Display Graph
+        </button>
+        <button id="table-button">
+          Display Table
+        </button>
+      </div>
     </section>
 
     <section id="session-list">
       <h2>Sessions</h2>
-      <button id="load-storage-button">
-        LOAD
-        <i class="fa fa-download"></i>
-      </button>
-      <button id="clear-storage-button">
-        Clear Storage
-      </button>
       <section id="session-list-display">
 
       </section>
+      <button id="load-storage-button">
+        <i class="fa fa-download"></i>
+        LOAD
+      </button>
+      <button id="clear-storage-button">
+        <i class="fa fa-trash"></i>
+        CLEAR
+      </button>
     </section>
-
-    <div id='button-container'>
-      <button id="graph-button">
-        Display Graph
-      </button>
-      <button id="table-button">
-        Display Table
-      </button>
-    </div>
 
     <script src="./render.js"></script>
   </body>
