@@ -22,7 +22,10 @@
     "semi": ["error", "never"],
     "import/newline-after-import": "off",
     "no-use-before-define": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "no-unused-vars": "off",
+    "no-restricted-syntax": "off",
+    "no-prototype-builtins": "off"
   },
   "parser": "babel-eslint"
 }
