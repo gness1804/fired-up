@@ -21,7 +21,6 @@
     "spectron": "^3.4.0"
   },
   "dependencies": {
-    "active-window": "^0.1.0",
     "chart.js": "^2.5.0",
     "electron": "^1.4.15",
     "eslint-plugin-import": "^2.2.0",
