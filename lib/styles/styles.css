@@ -27,7 +27,7 @@ h2 {
   border: 2px solid black;
   border-right: 0;
   overflow: auto;
-  background-color: #DDDDDD;
+  background-color: #FFDDDD;
 }
 #instructions {
   border: 2px solid black;
@@ -104,7 +104,7 @@ button:active {
   border: 2px solid black;
   box-sizing: border-box;
   overflow: auto;
-  background-color: #DDDDDD;
+  background-color: #FFDDDD;
 }
 #load-storage-button, #clear-storage-button {
   width: inherit;
