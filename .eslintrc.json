@@ -26,7 +26,8 @@
     "no-unused-vars": "off",
     "no-restricted-syntax": "off",
     "no-prototype-builtins": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "no-unused-expressions": "off"
   },
   "parser": "babel-eslint"
 }
