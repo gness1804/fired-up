@@ -1,4 +1,4 @@
-##Fired Up: A Productivity App
+## Fired Up: A Productivity App
 
 ![Screenshot](images/fired-up-screenshot.png)
 
@@ -20,10 +20,11 @@ The data in the center of the window displays the time allocated on each applica
 
 In future versions, we hope to add features such as being able to rate each app based on its productivity value (or lack thereof), and display session data accordingly.
 
-To use in development mode:
+*To use in development mode:*
 
+* Make sure that you have Node.js, npm, and git installed on your system. 
 * Clone down this repo.
 * `npm install.`
 * Run `electron .` or `npm start` to run the application.
 
-Tested for macOS Sierra and Ubuntu 16.04. 
+Tested successfully on macOS Sierra and Ubuntu 16.04. Fails on Windows 10 (see issue #60).
